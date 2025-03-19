@@ -13,7 +13,7 @@ import java.time.ZonedDateTime;
 import java.util.List;
 import java.util.Optional;
 
-
+@Transactional
 @Repository
 public interface EventsRepository extends JpaRepository<Events, Long> {
 
